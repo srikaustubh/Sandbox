@@ -1,5 +1,11 @@
 __author__ = 'jc449799'
 """
-Srikaustubh
 """
-print("hello my name is Srikaustubh")
+
+valid = False
+while not valid:
+    name = input("Enter your name: ")
+    if name != "" and not name.isspace():
+        valid = True
+print(valid)
+print(name)
